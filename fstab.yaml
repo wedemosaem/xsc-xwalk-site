@@ -2,7 +2,8 @@ mountpoints:
   /:
     url: "https://author-p120405-e1277120.adobeaemcloud.com/bin/franklin.delivery/wedemosaem/xsc-xwalk-site/main" 
     type: "markup"
-    suffix: ".html"  #/:
+    suffix: ".html"  
+    #/:
   #  url: https://author-p46820-e1400905.adobeaemcloud.com/bin/franklin.delivery/AdobeDevXSC/xsc-xwalk-site/main
   #  type: markup
   #  suffix: ".html?wcmmode=disabled"
