@@ -274,8 +274,6 @@ async function loadLazy(doc) {
     loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   }
   
-  import('../tools/sidekick/aem-genai-variations.js');
-  
   addFavIcon(`${window.wknd.demoConfig.demoBase || window.hlx.codeBasePath}/favicon.png`);
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
